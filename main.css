@@ -1,0 +1,368 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #616679;
+}
+
+.container {
+  height: 15px;
+  margin: 0 auto;
+  padding: 0px
+}
+
+nav {
+  background-color: #2B2C2D;
+  color: #fff;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #2B2C2D;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background-color: #2B2C2D;
+  color: #fff;
+  padding: 5;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+header p {
+  font-size: 2px;
+}
+
+.main-content {
+  margin-top: 85px;
+  padding: 20px;
+  margin-left: 68px;
+  margin-right: 100px;
+  color: #D6D7D8;
+}
+
+.main-content h1{
+  font-size: 50px;
+}
+
+.main-content .start{
+  font-size: 20px;
+}
+
+#Start{
+  font-size: larger;
+  margin: 10px;
+  margin-right: 234px;
+}
+.start{
+  font-size: medium;
+  margin-top: 5px;
+  margin-right: 234px;
+
+}
+
+p{
+  margin-top: 35px;
+  font-size: medium;
+}
+
+h3{
+  padding-top: 30px;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 1200px;
+  height: 315px;
+  padding: 10px;
+  margin: 0 0 5px ;
+  margin-right: 234px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1565px;
+  width: 295.65px;
+  margin-right: 234px;
+}
+
+#modal {
+  padding: 10px;
+}
+
+.modal-content {
+  margin-bottom: 20px;
+}
+
+.Dataset{
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+.Dataset .datasets{
+  font-size: 40px;
+}
+
+.Dataset button {
+  margin-left: 90px;
+}
+
+.forpapers h2, .forpapers ul {
+  display: inline;
+}
+
+.forpapers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.forpapers input, .forpapers p {
+  display: block; /* Make the input and paragraph display as block */
+  margin-top: 10px; /* Adjust spacing between input/paragraph and h2/ul */
+}
+
+.forpapers h2, .forpapers ul {
+  display: inline;
+}
+
+.forpapers h2{
+  font-size: 35px;
+}
+
+.forpapers ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  margin-bottom: 10px;
+}
+
+.forpapers li {
+  margin-right: 10px; /* Adjust spacing between menu items */
+}
+
+.forpapers a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px; /* Adjust padding for better spacing */
+  border-radius: 5px; /* Add some rounded corners */
+  background-color: #333; /* Dark background color */
+}
+
+.forpapers a:hover {
+  background-color: #555; /* Darken background color on hover */
+}
+
+
+input #searchpapers {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.article {
+  margin-bottom: 20px;
+  background-color: 000000;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Align the header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2B2C2D;
+}
+
+/* Position the navigation links to the top right */
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Position the search box */
+.nav-links li:last-child {
+  margin-left: auto;
+}
+
+.textForm #textInput{
+  background-color: #212529;
+  width: 1859px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+#searchButton {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add this to your styles.css file */
+
+.Dataset {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.Dataset h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Dataset .datasetbutton {
+  font-size: medium;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  white-space: nowrap;
+  height: 35px;
+  width: 300px;
+}
+
+
+.checker {
+  margin: 25px;
+  padding-top: 15px;
+  color: #00CDA8;
+}
+
+#Fake{
+  color: #d1a513;
+}
+
+
+/* Update your CSS file with the following styles */
+
+.divArticle {
+  display: flex; /* Use flexbox for layout */
+  border-radius: 10px;
+  background-color: #201f29;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.divArticle::before {
+  content: '';
+  border-left: 2px solid #000000;
+  margin-right: 10px;
+}
+
+.article-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.article-content {
+  margin-right: 20px; 
+}
+
+.datasetbutton {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 15px; 
+  cursor: pointer;
+  margin-left: 80px;
+  margin-top: 30px;
+  white-space: nowrap;
+  height: 30px;
+  width: 300px;
+}
+
+.divArticle .buttonArticles {
+  margin-left: 100px;
+  width: 155px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.article-text {
+  margin-bottom: 10px;
+}
+
+.article-paragraph {
+  color: #fff;
+}
+
+.forpapers #searchpapers{
+  width: 1129px;
+  height: 25px;
+  border-radius: 5px;
+  color: black;
+  border-color: white;
+}

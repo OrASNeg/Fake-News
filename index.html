@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake News Detection</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="logo">Fake News Detection</h1>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="search-box">
+                <input type="text" placeholder="Search..." id="searchBox" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-content">
+      <div id="Start">
+        <h1>Fake news Detection</h1>
+        <p class="start">7000 articles all processed</p>
+        <p class="start">150 papers with code • 9 benchmarks • 25 datasets</p>
+        <p id="text">
+          Fake News Detection is a natural language processing task that
+          involves identifying and classifying news articles or other types of
+          text as real or fake. The goal of fake news detection is to develop
+          algorithms that can automatically identify and flag fake news
+          articles, which can be used to combat misinformation and promote the
+          dissemination of accurate information.
+        </p>
+        <h3>Enter your case:</h3>
+      </div>
+
+      <form class="textForm">
+        <textarea id="textInput" rows="4" cols="50"></textarea>
+        <button type="submit" id="Verify">Verify</button>
+      </form>
+
+        <div class="Dataset">
+          <h1 class="datasets">Datasets</h1>
+          <hr />
+          <button class="datasetbutton">Real News</button>
+          <button class="datasetbutton">Fake news</button>
+          <button class="datasetbutton" id="Articles">Articles</button>
+        </div>
+
+        <div class="forpapers">
+          <h2>Most implemented papers</h2>
+          <ul id="forpapers">
+            <li><a href="default.asp">Most implemented</a></li>
+            <li><a href="news.asp">Social</a></li>
+            <li><a href="contact.asp">Latest</a></li>
+            <li><a href="about.asp">No code</a></li>
+          </ul>
+          <input id="searchpapers" />
+          <p>Search for a article , author or keyword</p>
+        </div>
+
+        <div class="divArticle">
+          <h2>Kerry’s message to the people of Bullgaria</h2>
+          <p>
+            Kerry said he expects to arrive in Paris Thursday evening, as he
+            heads home after a week abroad. He said he will fly to France at the
+            conclusion of a series of meetings scheduled for Thursday in Sofia,
+            Bulgaria. He plans to meet the next day with Foreign Minister
+            Laurent Fabius and President Francois Hollande, then return to
+            Washington.
+          </p>
+          <button class="buttonArticles">Look in</button>
+          <p class="checker">Real</p>
+        </div>
+        <div class="divArticle">
+          <h2>Kerry’s message to the people of Bullgaria</h2>
+          <p>
+            Kerry said he expects to arrive in Paris Thursday evening, as he
+            heads home after a week abroad. He said he will fly to France at the
+            conclusion of a series of meetings scheduled for Thursday in Sofia,
+            Bulgaria. He plans to meet the next day with Foreign Minister
+            Laurent Fabius and President Francois Hollande, then return to
+            Washington.
+          </p>
+          <button class="buttonArticles">Look in</button>
+          <p class="checker">Real</p>
+        </div>
+        <div class="divArticle">
+          <h2>Strong Solar Storm, Tech Risks Today | S0 News Oct.26.2016 [VIDEO]</h2>
+          <p>
+            Click Here To Learn More About Alexandra's Personalized Essences Psychic Protection Click Here for More Information on Psychic Protection! Implant Removal Series Click here to listen to the IRP and SA/DNA Process Read The Testimonials Click Here To Read What Others Are Experiencing! Copyright Â© 2012 by Galactic Connection. All Rights Reserved. Excerpts may be used
+          </p>
+          <button class="buttonArticles">Look in</button>
+          <p class="checker" id="Fake">Fake</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Fake News Detection. All rights reserved. Gerti Kida</p>
+      </div>
+    </footer>
+  </body>
+</html>
